@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SWARAM</string>
+    <string name="title_activity_main">SWARAM</string>
+    <string name="package_name">com.swaram.music</string>
+    <string name="custom_url_scheme">com.swaram.music</string>
+</resources>
