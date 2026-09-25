@@ -1,32 +1,52 @@
-# React + TypeScript + Vite
+# 🎵 Swaram Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Swaram is a multilingual music streaming application designed to help users
+discover and enjoy music in different Indian languages.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎵 Music player with play/pause controls
+- 🔎 Search songs and artists
+- ❤️ Favorite songs
+- 📚 Personal music library
+- 📋 Queue management
+- 🌐 Multilingual music discovery
+- 📱 Responsive user interface
+- 🔐 Supabase integration
+- 🎧 Support for multiple Indian languages
 
-## React Compiler
+## 🌍 Supported Languages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Telugu
+- Hindi
+- English
+- Tamil
+- Kannada
+- Malayalam
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Vite
+- Supabase
+- Tailwind CSS
+- Capacitor
+- Git & GitHub
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 📂 Project Structure
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+```text
+swaram-music-app/
+├── android/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── lib/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── musicApi.ts
+├── package.json
+├── capacitor.config.ts
+├── vite.config.ts
+└── README.md
